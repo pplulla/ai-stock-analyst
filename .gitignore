@@ -1,0 +1,41 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# Notebooks (scratch work, not part of the app)
+*.ipynb
+
+# Trained model artifacts (binary files, not for public repos)
+*.pkl
+*.joblib
+*.pickle
+
+# Secrets
+.env
+.env.*
+.streamlit/secrets.toml
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# IDE
+.vscode/
+.idea/
+*.code-workspace
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Zip/archives
+*.zip
